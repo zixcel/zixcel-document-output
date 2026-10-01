@@ -1,0 +1,10 @@
+# 意味パッケージ
+  版: 0.10.0
+  所有者: zixcel/document/output
+
+# 依存パッケージ
+  識別子: sem-lang/standard
+
+# 言語ソース
+  ソース: language/pdf.sem
+  ダイジェスト: bab49a23063fabf2d13d91b1f31cfb4dd9aca89b85aac091a81344a91dfeb727

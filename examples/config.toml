@@ -1,0 +1,13 @@
+schema = "zixcel://document/output/config/v1"
+config_id = "document.output.sample"
+input_ref = "examples/input.md"
+input_digest = "1883cc1118c764fc56ef7aa55f15b016e9366b1b939dc89831c3902360918327"
+output_ref = "examples/output.pdf"
+maximum_classification = "internal"
+renderer = "pandoc_typst"
+pandoc_digest = "8fedc028b2314cd649b6cabf363c94a7c940aff352a1c20753ffb0875f083cac"
+typst_digest = "b587490ea5e0ec871888d05965169e3ba38f6ff7376b01a294239ff0725ee5a3"
+main_font = "Noto Sans CJK JP"
+timeout_seconds = 120
+maximum_input_bytes = 8388608
+maximum_output_bytes = 67108864

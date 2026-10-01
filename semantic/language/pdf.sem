@@ -1,0 +1,48 @@
+# Language
+  Dependencies: sem-lang/standard/semantic
+
+# Term
+  Name: PortableDocumentFormat
+  Description: The standardized portable document representation known as PDF
+  Meaning: Primitive/Value
+
+# Surface
+  Language: ja-JP
+  Surface: PDF
+  Normalized: PDF
+  Kind: Denotational
+  Target: PortableDocumentFormat
+  Priority: 100
+  Provenance: zixcel/document/output
+
+# Surface
+  Language: en-US
+  Surface: PDF
+  Normalized: PDF
+  Kind: Denotational
+  Target: PortableDocumentFormat
+  Priority: 100
+  Provenance: zixcel/document/output
+
+# Term
+  Name: PdfRender
+  Description: Render a value as a PDF document
+  Meaning: Primitive/Relation
+
+# Surface
+  Language: ja-JP
+  Surface: PDF文書生成
+  Normalized: PDF文書生成
+  Kind: Operational
+  Target: PdfRender
+  Priority: 100
+  Provenance: zixcel/document/output
+
+# Surface
+  Language: en-US
+  Surface: Render PDF
+  Normalized: render PDF
+  Kind: Operational
+  Target: PdfRender
+  Priority: 100
+  Provenance: zixcel/document/output
