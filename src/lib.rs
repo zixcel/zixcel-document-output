@@ -4,9 +4,15 @@
 mod boundary;
 mod config;
 mod path_policy;
+mod pdf;
 mod plan;
 mod render;
 mod reports;
+
+pub use pdf::{
+    PdfAnalysisReport, PdfAnalysisRequest, PdfPageAnalysis, PdfReadCapability, PdfSummary,
+    PdfWriteCapability, analyze_pdf, write_pdf_report,
+};
 
 pub use boundary::ConnectorError;
 pub use config::{ConnectorConfig, MaximumClassification, Renderer, parse_config};

@@ -61,7 +61,13 @@ pub fn capabilities() -> CapabilityReport {
         schema: "zixcel://document/output/capabilities/v1",
         connector: CONNECTOR,
         provider: PROVIDER,
-        capabilities: vec!["document/render/pdf"],
+        capabilities: vec![
+            "document/render/pdf",
+            "document/pdf/extract-text",
+            "document/pdf/metadata",
+            "document/pdf/page-analysis",
+            "document/pdf/report-create",
+        ],
     }
 }
 

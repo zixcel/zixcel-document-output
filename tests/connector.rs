@@ -39,7 +39,16 @@ fn contract_rejects_escape_unknowns_embedded_keys_and_bad_digests() {
 #[test]
 fn capability_is_exact_and_provider_neutral() {
     let report = capabilities();
-    assert_eq!(report.capabilities, ["document/render/pdf"]);
+    assert_eq!(
+        report.capabilities,
+        [
+            "document/render/pdf",
+            "document/pdf/extract-text",
+            "document/pdf/metadata",
+            "document/pdf/page-analysis",
+            "document/pdf/report-create"
+        ]
+    );
     assert_eq!(report.provider, "document-output");
 }
 
